@@ -22,6 +22,7 @@ function App() {
             <h5 className="text-center text-secondary">Todas as Vendas</h5>
             <DonutChart />
           </div>
+
         </div>
 
         <div className="py-3">
