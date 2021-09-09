@@ -1,4 +1,4 @@
-package com.devsuperio.DSVendas;
+package com.devsuperio.sdvendas;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
