@@ -17,12 +17,8 @@ public class SellerService{
 	@Autowired
 	private SellerRepository repository;
 	
-	@Autowired
-	private SellerRepository sellerRepository;
-	
 	@Transactional(readOnly = true)
 	public List<SellerDTO> findAll() {
-		sellerRepository.findAll();
 		List<Seller> result = repository.findAll();
 		return result.stream().map(x -> new SellerDTO(x)).collect(Collectors.toList());
 	}
